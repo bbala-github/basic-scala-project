@@ -2,13 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.amazonaws</groupId>
-    <artifactId>h20s</artifactId>
+    <groupId>hw</groupId>
+    <artifactId>hw</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <scala.version>2.13.1</scala.version>
-        <scala.lib.version>2.13</scala.lib.version>
+        <scala.version>2.12.1</scala.version>
+        <scala.lib.version>2.12</scala.lib.version>
     </properties>
 
     <dependencies>
@@ -26,32 +26,9 @@
         <dependency>
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_${scala.lib.version}</artifactId>
-            <version>3.0.8</version>
+            <version>3.0.1</version>
             <scope>test</scope>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk -->
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk</artifactId>
-            <version>1.11.482</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.typesafe.scala-logging/scala-logging -->
-        <dependency>
-            <groupId>com.typesafe.scala-logging</groupId>
-            <artifactId>scala-logging_${scala.lib.version}</artifactId>
-            <version>3.9.2</version>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.30</version>
-            <scope>test</scope>
-        </dependency>
-
     </dependencies>
 
     <build>
