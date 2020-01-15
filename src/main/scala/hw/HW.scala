@@ -5,8 +5,6 @@ class HW {
 }
 
 object HW extends App {
-  override def main(args: Array[String]): Unit = {
-    val hw = new HW
-    println(hw.say())
-  }
+  val hw = new HW
+  println(hw.say())
 }
